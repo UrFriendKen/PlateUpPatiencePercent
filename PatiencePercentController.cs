@@ -24,7 +24,7 @@ namespace KitchenPatiencePercent
                 return;
             }
             var data = (CustomerIndicatorView.ViewData)f_Data?.GetValue(Indicator);
-            if (!data.HasPatience || !Main.PrefManager.Get<bool>(Main.SHOW_PERCENT_ID))
+            if (data.IsHidden || data.IsObfuscated || !Main.PrefManager.Get<bool>(Main.SHOW_PERCENT_ID))
             {
                 if (Icon != null)
                 {

@@ -11,7 +11,7 @@ namespace KitchenPatiencePercent
     {
         public const string MOD_GUID = $"IcedMilo.PlateUp.{MOD_NAME}";
         public const string MOD_NAME = "Patience Percent";
-        public const string MOD_VERSION = "0.1.1";
+        public const string MOD_VERSION = "0.1.2";
 
         internal const string SHOW_PERCENT_ID = "showPercent";
 
